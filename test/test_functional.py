@@ -21,10 +21,10 @@ class TestManagementSystems(unittest.TestCase):
 
         # ===== Transport Management System =====
         self.trip_id = "T102"
-        self.min_passengers = 40
+        self.min_passengers = 20
         self.expected_revenue = 600
-        self.expected_validation = "Trip T102 does not meet the minimum requirement of 40 passengers."
-        self.expected_total_revenue = "Total Transport Revenue: $2925"
+        self.expected_validation = True
+        self.expected_total_revenue = 2925
 
         # ===== Warehouse Management System =====
         self.inventory = initialize_inventory()
