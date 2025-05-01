@@ -22,7 +22,7 @@ def save_to_file():
 
 def get_fees(student_name):
     """
-    Retrieve and display student's fee details from the file and return
+    Retrieve and returns student's fee details from the file
     """
     pass  
 
