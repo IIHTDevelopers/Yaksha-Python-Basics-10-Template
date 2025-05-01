@@ -20,11 +20,11 @@ def save_to_file():
     pass  # TODO: Implement file writing logic
 
 
-def get_fees():
+def get_fees(student_name):
     """
-    Retrieve and display Emma's fee details from the file.
+    Retrieve and display student's fee details from the file and return
     """
-    pass  # TODO: Implement logic to read from file and find Emma’s record
+    pass  
 
 
 def display_fees():
