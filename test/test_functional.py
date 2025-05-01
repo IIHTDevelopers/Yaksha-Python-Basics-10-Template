@@ -59,7 +59,7 @@ class TestManagementSystems(unittest.TestCase):
             self.test_obj.yakshaAssert("TestIsTotalFeePaid", result, "functional")
             if result:   
                 print("TestIsTotalFeePaid = Passed")
-            else
+            else:
                 print("TestIsTotalFeePaid = Failed")
         except Exception as e:
             self.test_obj.yakshaAssert("TestIsTotalFeePaid", False, "functional")
