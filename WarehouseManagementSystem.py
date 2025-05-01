@@ -21,13 +21,6 @@ def most_expensive_item(inventory):
     pass  # TODO: Implement logic to find the item with the highest price per unit
 
 
-def monitor_stock(inventory):
-    """
-    Gets the stock and price details of Monitors.
-    """
-    pass  # TODO: Implement logic to check if 'W105' exists and return its stock details
-
-
 def total_items_in_warehouse(inventory):
     """
     Calculates total stock in warehouse.
