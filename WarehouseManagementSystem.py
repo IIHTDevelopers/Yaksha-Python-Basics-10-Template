@@ -36,7 +36,7 @@ def main():
     inventory = initialize_inventory()
 
     print("Most Expensive Item:", most_expensive_item(inventory))  # TODO: Implement function call
-    print("Monitor Stock:", monitor_stock(inventory))  # TODO: Implement function call
+
     print("Total Items in Warehouse:", total_items_in_warehouse(inventory))  # TODO: Implement function call
 
 
