@@ -27,11 +27,11 @@ def get_fees(student_name):
     pass  
 
 
-def display_fees():
+def is_total_fee_paid(student_name):
     """
-    Display all student fee records from the file.
+    Returns true if fee paid by student is equal to total fee, else return false
     """
-    pass  # TODO: Implement logic to read and display the entire file contents
+    pass  
 
 
 # Main Execution
@@ -41,8 +41,7 @@ def main():
     """
     save_to_file()  # TODO: Implement function
 
-    print(get_fees())  # TODO: Implement function
-    print(display_fees())  # TODO: Implement function
+  
 
 
 if __name__ == "__main__":
