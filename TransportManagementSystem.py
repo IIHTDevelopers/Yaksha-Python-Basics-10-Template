@@ -14,7 +14,7 @@ def calculate_trip_revenue(trip_id):
     """
     TODO: Calculate the total revenue for a given trip.
     Formula: revenue = passengers * fare_per_passenger
-    Return the revenue in the format -> "Revenue for <route>: $<amount>"
+   
     """
     pass  # Replace with your implementation
 
