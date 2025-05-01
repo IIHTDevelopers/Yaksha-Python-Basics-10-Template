@@ -21,10 +21,10 @@ def calculate_trip_revenue(trip_id):
 def validate_trip(trip_id, min_passengers):
     """
     TODO: Check if the trip meets the minimum required passengers for operation.
-    If the trip exists and meets the requirement, return:
-    "Trip <trip_id> is valid with <passengers> passengers."
-    Otherwise, return:
-    "Trip <trip_id> does not meet the minimum requirement of <min_passengers> passengers."
+    If the trip exists and meets the requirement, return True:
+  
+    Otherwise, return False:
+   
     """
     pass  # Replace with your implementation
 
@@ -32,7 +32,7 @@ def total_transport_revenue():
     """
     TODO: Calculate the total revenue generated from all trips.
     Sum up the revenue for all trips and return:
-    "Total Transport Revenue: $<total_revenue>"
+    
     """
     pass  # Replace with your implementation
 
