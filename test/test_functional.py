@@ -37,8 +37,8 @@ class TestManagementSystems(unittest.TestCase):
         Test case for get_fees() function.
         """
         try:
-            result = get_fees()
-            expected_result = "Student: Emma, Grade: 9th, Fees Paid: $4000, Total Fees: $7000"
+            result = get_fees("Emma")
+            expected_result = 4000
             if result == expected_result:
                 self.test_obj.yakshaAssert("TestGetFees", True, "functional")
                 print("TestGetFees = Passed")
