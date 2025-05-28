@@ -6,7 +6,7 @@ import os
 # Adjusting the path to import TestUtils and the required modules
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from test.TestUtils import TestUtils
-from SchoolFeeManagementSystem import get_fees, is_total_fee_paid, save_to_file
+from SchoolFeeManagementSystem import *
 from TransportManagementSystem import calculate_trip_revenue, validate_trip, total_transport_revenue
 from WarehouseManagementSystem import initialize_inventory, most_expensive_item, total_items_in_warehouse
 
