@@ -7,8 +7,8 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from test.TestUtils import TestUtils
 from SchoolFeeManagementSystem import *
-from TransportManagementSystem import calculate_trip_revenue, validate_trip, total_transport_revenue
-from WarehouseManagementSystem import initialize_inventory, most_expensive_item, total_items_in_warehouse
+from TransportManagementSystem import *
+from WarehouseManagementSystem import *
 
 
 class TestManagementSystems(unittest.TestCase):
